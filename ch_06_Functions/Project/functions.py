@@ -5,51 +5,51 @@
 
 # In[2]:
 
-def printHello():
+def printHello():          #defining the funtion
     print("hello")
     
     
-printHello()
-printHello()
-    
-
+printHello()    #Calling the funciton
 
 # # function with parameters
 # 
 
 # In[4]:
 
-def printMyName( name ):
+def printMyName( name ):          #defining the funtion
     print( name )
 
 myName = "ahmed"   
-printMyName(myName)    
+printMyName(myName)    #Calling the funciton
 
 
 # # function with default values for parameters
 
 # In[5]:
 
-def printTheName( name = 'ahmed' ):
+def printTheName( name = 'ahmed' ):          #defining the funtion
     print( name )
 
-printTheName()    
+printTheName()      #Calling the funciton
+  
 
 
 # In[6]:
 
-printTheName("ahmed khalifa") 
+printTheName("ahmed khalifa")     #Calling the funciton
+
 
 
 # # function with return
 
 # In[7]:
 
-def addTwoNumber(x,y):
+def addTwoNumber(x,y):          #defining the funtion
     z = x + y
     return z
 
-a = addTwoNumber(5,5)
+a = addTwoNumber(5,5)    #Calling the funciton
+
 print(a)
 
 
@@ -64,10 +64,11 @@ for i in myList:
 
 # In[15]:
 
-def addItemsToList(yourList):
+def addItemsToList(yourList):          #defining the funtion
     yourList.insert(0,0)
 
-addItemsToList(myList)
+addItemsToList(myList)    #Calling the funciton
+
 for i in myList:
     print(i)
 
@@ -82,10 +83,11 @@ print(variable)
 
 # In[21]:
 
-def testchangeValue(myVariable):
+def testchangeValue(myVariable):          #defining the funtion
     myVariable = 100
     
-testchangeValue(variable)   
+testchangeValue(variable)    #Calling the funciton
+
 print(variable)
 
 
@@ -100,7 +102,7 @@ print(x)
 
 # In[24]:
 
-def global_VS_local():
+def global_VS_local():          #defining the funtion
     #local variable 
     x = 100
 
@@ -127,23 +129,25 @@ test2(globalVar)
 
 # In[27]:
 
-def test3():
+def test3():          #defining the funtion
     localVariable = 123
     print(localVariable)
     
-def test4():
+def test4():          #defining the funtion
     #localVariable is undefined
     print(localVariable)
     
-test3()
-test4()
+test3()    #Calling the funciton
+
+test4()    #Calling the funciton
+
 
 
 # # Variable-length arguments
 
 # In[32]:
 
-def add(x , *list):
+def add(x , *list):          #defining the funtion
     print("this is x : ")
     print(x)
     for i in list:
@@ -160,5 +164,7 @@ add(1,2,3,4,5,6,7,8,9)
 
 # In[ ]:
 
-
-
+'''
+For more info got to
+https://beginnerspythonbysanatjha.blogspot.com/
+'''
